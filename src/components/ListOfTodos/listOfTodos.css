@@ -1,0 +1,22 @@
+.empty {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.todo-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+	.todo-list {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding: 20px;
+		gap: 20px;
+	}
+}

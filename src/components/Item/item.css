@@ -1,0 +1,89 @@
+.todo {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 5px;
+	background-color: #f1f1f1;
+	margin-bottom: 10px;
+	border-left: 3px solid #2564ebbe;
+}
+
+.todo:hover {
+	background-color: #eaeaea;
+	border-left: 5px solid #2564eb;
+}
+
+.todo-entry {
+	width: 200px;
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: default;
+}
+
+.todo-complate {
+	border: 0;
+	display: flex;
+	align-items: center;
+	border: 1px solid #ff5c5c;
+	background-color: #ff5c5c;
+	color: white;
+	padding: 0.5rem 0.5rem;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.todo-complate:hover {
+	background-color: rgb(251, 33, 33);
+}
+
+.delete {
+	width: 30px;
+	height: 30px;
+	color: white;
+}
+
+@media screen and (min-width: 360px) {
+	.todo-entry {
+		width: 235px;
+		padding-left: 10px;
+		font-size: 16px;
+	}
+
+	.todo-complate {
+		padding: 0.6rem 0.6rem;
+	}
+}
+
+@media screen and (min-width: 412px) {
+	.todo-entry {
+		width: 250px;
+		padding-left: 10px;
+		font-size: 16px;
+	}
+
+	.todo-complate {
+		padding: 0.7rem 0.7rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.todo-entry {
+		width: 316px;
+		padding-left: 10px;
+		font-size: 16px;
+	}
+
+	.todo-complate {
+		padding: 0.8rem 0.8rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.todo-entry {
+		width: 200px;
+		padding-left: 10px;
+		font-size: 16px;
+	}
+}
