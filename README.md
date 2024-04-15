@@ -1,4 +1,3 @@
 # Todo-app-useReducer
-# Todo-app-useReducer
-# Todo-app-useReducer
-# TodoApp-useReducer
+
+This Todo app has been updated to use useReducer instead of the previous version, which used useState.
